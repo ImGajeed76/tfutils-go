@@ -1,0 +1,52 @@
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Build
+bin/
+build/
+dist/
+
+# Dependency directories
+vendor/
+
+# Output of the go coverage tool
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+*.env.local
+
+# Debug files
+debug/
+*.debug
+
+# Log files
+*.log
+logs/
+
+# Binary files
+*.bin
+
+# Project specific backup files
+*.bak
+*.backup
+*~
