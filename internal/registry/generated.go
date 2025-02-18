@@ -2,25 +2,41 @@
 package registry
 
 import (
-    charms "tfutils-go/charms"
-    "github.com/ImGajeed76/charmer/pkg/charmer/models"
+	"github.com/ImGajeed76/charmer/pkg/charmer/models"
+	charms "tfutils-go/charms"
 )
 
 var RegisteredCharms = map[string]models.CharmFunc{
-    "Greeting": {
-        Name:    "Greeting",
-        Doc:     `Greeting godoc
+	"Greeting": {
+		Name: "Greeting",
+		Doc: `Greeting godoc
 @Charm
 @Title Greeting
 @Description
 # Greeting
 ## Description
 This is a simple greeting function that asks for a name and greets the user.`,
-        Execute: charms.Greeting,
+		Execute: charms.Greeting,
 		Path:    "Greeting",
 		Title:   "Greeting",
 		Description: `# Greeting
 ## Description
 This is a simple greeting function that asks for a name and greets the user.`,
-    },
+	},
+	"ListRoot": {
+		Name: "ListRoot",
+		Doc: `ListRoot godoc
+@Charm
+@Title ListRoot
+@Description
+# ListRoot
+## Description
+Lists the root of the sftp server`,
+		Execute: charms.ListRoot,
+		Path:    "ListRoot",
+		Title:   "ListRoot",
+		Description: `# ListRoot
+## Description
+Lists the root of the sftp server`,
+	},
 }
