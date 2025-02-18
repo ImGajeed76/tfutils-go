@@ -2,7 +2,7 @@ module tfutils-go
 
 go 1.24.0
 
-require github.com/ImGajeed76/charmer v0.5.0
+require github.com/ImGajeed76/charmer v0.5.1
 
 require (
 	al.essio.dev/pkg/shellescape v1.5.1 // indirect

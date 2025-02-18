@@ -2,10 +2,8 @@ al.essio.dev/pkg/shellescape v1.5.1 h1:86HrALUujYS/h+GtqoB26SBEdkWfmMI6FubjXlsXy
 al.essio.dev/pkg/shellescape v1.5.1/go.mod h1:6sIqp7X2P6mThCQ7twERpZTuigpr6KbZWtls1U8I890=
 github.com/76creates/stickers v1.4.1 h1:cd9qM1+FuM7TFStTRxEMEWNpyCY5CIJ05xvKdA+fwk4=
 github.com/76creates/stickers v1.4.1/go.mod h1:S0ii0IRGMJx5n5zGpesai8oX0DWY3X5PDI3OUErgF38=
-github.com/ImGajeed76/charmer v0.4.0 h1:LVYVflw5jrjUk2Dq55/iVvuv5g8LZbi2G5IbSloR+Ew=
-github.com/ImGajeed76/charmer v0.4.0/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
-github.com/ImGajeed76/charmer v0.5.0 h1:Z1GG7sstfygXiFQaGHxPTfa0qXULyy4jc7lwQSEPiME=
-github.com/ImGajeed76/charmer v0.5.0/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
+github.com/ImGajeed76/charmer v0.5.1 h1:za/0gNH9x6dS6XsCzMaLduR7IIWODGPH6o8PhqfDX/4=
+github.com/ImGajeed76/charmer v0.5.1/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
 github.com/alecthomas/assert/v2 v2.7.0 h1:QtqSACNS3tF7oasA8CU6A6sXZSBDqnm7RfpLl9bZqbE=
 github.com/alecthomas/assert/v2 v2.7.0/go.mod h1:Bze95FyfUr7x34QZrjL+XP+0qgp/zg8yS+TtBj1WA3k=
 github.com/alecthomas/chroma/v2 v2.14.0 h1:R3+wzpnUArGcQz7fCETQBzO5n9IMNi13iIs46aU4V9E=
