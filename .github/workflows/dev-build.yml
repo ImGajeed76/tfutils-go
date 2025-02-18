@@ -1,0 +1,68 @@
+name: Development Build
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Build Linux Binary
+        run: |
+          go build -o dist/app-linux-amd64
+          tar czf dist/app-linux-amd64.tar.gz -C dist app-linux-amd64
+
+      - name: Build Windows Binary
+        env:
+          GOOS: windows
+          GOARCH: amd64
+        run: |
+          go build -o dist/app-windows-amd64.exe
+          zip dist/app-windows-amd64.zip dist/app-windows-amd64.exe
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Create/Update Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: dev-build
+          name: "Development Build (${{ steps.date.outputs.date }})"
+          body: |
+            ⚠️ This is a development build from the latest main/master branch.
+            Built on: ${{ steps.date.outputs.date }}
+            
+            ### Installation Instructions
+            
+            #### Linux:
+            ```bash
+            # Download and extract
+            curl -L -o app.tar.gz https://github.com/${{ github.repository }}/releases/download/dev-build/app-linux-amd64.tar.gz
+            tar xzf app.tar.gz
+            
+            # Make executable and move to system path
+            chmod +x app-linux-amd64
+            sudo mv app-linux-amd64 /usr/local/bin/app
+            ```
+            
+            #### Windows:
+            Download the ZIP file and extract it to your desired location.
+          files: |
+            dist/app-linux-amd64.tar.gz
+            dist/app-windows-amd64.zip
+          prerelease: true
+          make_latest: true
