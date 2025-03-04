@@ -10,6 +10,8 @@ github.com/ImGajeed76/charmer v0.7.3 h1:bwjXUm7nChsrYVN1/N0r+vyx0Ip9ICSX7boWPGNB
 github.com/ImGajeed76/charmer v0.7.3/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
 github.com/ImGajeed76/charmer v0.7.4 h1:K4xylgbwuK1UDzTRWB8jdSs5NiOuCSiROOhYHmwotWI=
 github.com/ImGajeed76/charmer v0.7.4/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
+github.com/ImGajeed76/charmer v0.7.6 h1:/iwfpOBp7hQyeE4yQzj/nCgouzU7hSRgUpiyZicmbcQ=
+github.com/ImGajeed76/charmer v0.7.6/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
 github.com/alecthomas/assert/v2 v2.7.0 h1:QtqSACNS3tF7oasA8CU6A6sXZSBDqnm7RfpLl9bZqbE=
 github.com/alecthomas/assert/v2 v2.7.0/go.mod h1:Bze95FyfUr7x34QZrjL+XP+0qgp/zg8yS+TtBj1WA3k=
 github.com/alecthomas/chroma/v2 v2.14.0 h1:R3+wzpnUArGcQz7fCETQBzO5n9IMNi13iIs46aU4V9E=
