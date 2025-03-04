@@ -3,40 +3,72 @@ package registry
 
 import (
 	"github.com/ImGajeed76/charmer/pkg/charmer/models"
-	charms "tfutils-go/charms"
+	Checkliste "tfutils-go/charms/Office/Checkliste"
+	Systembeschreibung "tfutils-go/charms/Office/Systembeschreibung"
 )
 
 var RegisteredCharms = map[string]models.CharmFunc{
-	"Greeting": {
-		Name: "Greeting",
-		Doc: `Greeting godoc
+	"Office/Checkliste/CreatePCBChecklist": {
+		Name: "CreatePCBChecklist",
+		Doc: `CreatePCBChecklist godoc
 @Charm
-@Title Greeting
+@Title PCB-Checkliste erstellen
 @Description
-# Greeting
-## Description
-This is a simple greeting function that asks for a name and greets the user.`,
-		Execute: charms.Greeting,
-		Path:    "Greeting",
-		Title:   "Greeting",
-		Description: `# Greeting
-## Description
-This is a simple greeting function that asks for a name and greets the user.`,
+
+# PCB-Checkliste erstellen
+
+Die PCB-Checkliste ist ein Dokument, das die Struktur und die Anforderungen an ein PCB beschreibt. Sie dient
+dazu, die Anforderungen an ein PCB zu dokumentieren und sicherzustellen, dass alle Anforderungen erfüllt sind.
+
+Mit diesem Charm können Sie eine PCB-Checkliste in dem oben angegebenen Pfad erstellen.`,
+		Execute: Checkliste.CreatePCBChecklist,
+		Path:    "Office/Checkliste/CreatePCBChecklist",
+		Title:   "PCB-Checkliste erstellen",
+		Description: `# PCB-Checkliste erstellen
+
+Die PCB-Checkliste ist ein Dokument, das die Struktur und die Anforderungen an ein PCB beschreibt. Sie dient
+dazu, die Anforderungen an ein PCB zu dokumentieren und sicherzustellen, dass alle Anforderungen erfüllt sind.
+
+Mit diesem Charm können Sie eine PCB-Checkliste in dem oben angegebenen Pfad erstellen.`,
 	},
-	"ListRoot": {
-		Name: "ListRoot",
-		Doc: `ListRoot godoc
+	"Office/Checkliste/CreateSchemaChecklist": {
+		Name: "CreateSchemaChecklist",
+		Doc: `CreateSchemaChecklist godoc
 @Charm
-@Title ListRoot
+@Title Schema-Checkliste erstellen
 @Description
-# ListRoot
-## Description
-Lists the root of the sftp server`,
-		Execute: charms.ListRoot,
-		Path:    "ListRoot",
-		Title:   "ListRoot",
-		Description: `# ListRoot
-## Description
-Lists the root of the sftp server`,
+
+# Schema-Checkliste erstellen
+
+Die Schema-Checkliste ist ein Dokument, das die Struktur und die Anforderungen an ein Schema beschreibt. Sie dient
+dazu, die Anforderungen an ein Schema zu dokumentieren und sicherzustellen, dass alle Anforderungen erfüllt sind.
+
+Mit diesem Charm können Sie eine Schema-Checkliste in dem oben angegebenen Pfad erstellen.`,
+		Execute: Checkliste.CreateSchemaChecklist,
+		Path:    "Office/Checkliste/CreateSchemaChecklist",
+		Title:   "Schema-Checkliste erstellen",
+		Description: `# Schema-Checkliste erstellen
+
+Die Schema-Checkliste ist ein Dokument, das die Struktur und die Anforderungen an ein Schema beschreibt. Sie dient
+dazu, die Anforderungen an ein Schema zu dokumentieren und sicherzustellen, dass alle Anforderungen erfüllt sind.
+
+Mit diesem Charm können Sie eine Schema-Checkliste in dem oben angegebenen Pfad erstellen.`,
+	},
+	"Office/Systembeschreibung/CreateNewSystemDescription": {
+		Name: "CreateNewSystemDescription",
+		Doc: `CreateNewSystemDescription godoc
+@Charm
+@Title Neue Systembeschreibung erstellen
+@Description
+
+# Neue Systembeschreibung erstellen
+
+Mit diesem Charm können Sie eine neue Systembeschreibung erstellen.`,
+		Execute: Systembeschreibung.CreateNewSystemDescription,
+		Path:    "Office/Systembeschreibung/CreateNewSystemDescription",
+		Title:   "Neue Systembeschreibung erstellen",
+		Description: `# Neue Systembeschreibung erstellen
+
+Mit diesem Charm können Sie eine neue Systembeschreibung erstellen.`,
 	},
 }
