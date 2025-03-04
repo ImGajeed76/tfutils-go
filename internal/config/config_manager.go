@@ -4,6 +4,7 @@ import (
 	"github.com/ImGajeed76/charmer/pkg/charmer/config"
 	"github.com/ImGajeed76/charmer/pkg/charmer/console"
 	"github.com/ImGajeed76/charmer/pkg/charmer/path"
+	"os"
 	"sync"
 )
 
@@ -31,25 +32,15 @@ func InitConfig() {
 		panic(err)
 	}
 
-	changeSettings, changeErr := console.YesNo(console.YesNoOptions{
-		Prompt:     "Do you want to change the SFTP settings?",
-		DefaultYes: false,
-		YesText:    "Yes, change settings",
-		NoText:     "No, keep existing settings",
-	})
-
-	if changeErr != nil {
-		panic(changeErr)
-	}
-
-	if changeSettings {
+	// Clear SFTP credentials if requested
+	if len(os.Args) > 1 && os.Args[1] == "--clear-sftp" {
 		err = globalCfg.Delete("sftp-username")
 		if err != nil {
-			return
+			panic(err)
 		}
 		err = globalCfg.Delete("sftp-password")
 		if err != nil {
-			return
+			panic(err)
 		}
 	}
 
