@@ -4,6 +4,10 @@ github.com/76creates/stickers v1.4.1 h1:cd9qM1+FuM7TFStTRxEMEWNpyCY5CIJ05xvKdA+f
 github.com/76creates/stickers v1.4.1/go.mod h1:S0ii0IRGMJx5n5zGpesai8oX0DWY3X5PDI3OUErgF38=
 github.com/ImGajeed76/charmer v0.7.1 h1:V9gV0x+27qfwLcOF33Sz/7U+YFSClv1dMUEDSHFZfyM=
 github.com/ImGajeed76/charmer v0.7.1/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
+github.com/ImGajeed76/charmer v0.7.2 h1:sEaH9gmzqV7Jq2myYlfFvX31tgId2ZJcGNQGt6Z8kUs=
+github.com/ImGajeed76/charmer v0.7.2/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
+github.com/ImGajeed76/charmer v0.7.3 h1:bwjXUm7nChsrYVN1/N0r+vyx0Ip9ICSX7boWPGNByxs=
+github.com/ImGajeed76/charmer v0.7.3/go.mod h1:Mnt8/tVie/XSXue06xeenefzOSzpGzIvhkO7+lOrdM4=
 github.com/alecthomas/assert/v2 v2.7.0 h1:QtqSACNS3tF7oasA8CU6A6sXZSBDqnm7RfpLl9bZqbE=
 github.com/alecthomas/assert/v2 v2.7.0/go.mod h1:Bze95FyfUr7x34QZrjL+XP+0qgp/zg8yS+TtBj1WA3k=
 github.com/alecthomas/chroma/v2 v2.14.0 h1:R3+wzpnUArGcQz7fCETQBzO5n9IMNi13iIs46aU4V9E=
