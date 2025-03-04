@@ -1,6 +1,8 @@
 # 🚀 TFUtils-Go
 
-TFUtils-Go is a powerful Go rewrite of the popular TFUtils project, designed to help TFBern students manage their projects more efficiently. This new version brings improved performance, easier distribution, and maintains the user-friendly approach of the original - now powered by Go!
+TFUtils-Go is a powerful Go rewrite of the popular TFUtils project, designed to help TFBern students manage their
+projects more efficiently. This new version brings improved performance, easier distribution, and maintains the
+user-friendly approach of the original - now powered by Go!
 
 ## ✨ Features
 
@@ -13,7 +15,8 @@ TFUtils-Go is a powerful Go rewrite of the popular TFUtils project, designed to 
 
 ⚠️ **Early Alpha Stage**
 
-This project is currently in early development. Features and APIs may change significantly. We recommend using the original TFUtils for production environments until the Go version reaches stable release.
+This project is currently in early development. Features and APIs may change significantly. We recommend using the
+original TFUtils for production environments until the Go version reaches stable release.
 
 ## 🚀 Quick Start
 
@@ -80,10 +83,10 @@ TFUtils-Go is licensed under the GNU General Public License v3.0 - see the [LICE
 
 ---
 
-🌟 **Purpose**: Bringing the power and simplicity of TFUtils to Go, making project management even more efficient for TFBern students.
+🌟 **Purpose**: Bringing the power and simplicity of TFUtils to Go, making project management even more efficient for
+TFBern students.
 
-⚠️ **Note**: This is an alpha release. The project is under active development, and we welcome your feedback and contributions!
-
-
+⚠️ **Note**: This is an alpha release. The project is under active development, and we welcome your feedback and
+contributions!
 
 Built with ❤️ in Switzerland by ImGajeed76
