@@ -13,8 +13,8 @@ usability for TFBern students while showcasing my expertise in creating efficien
 
 ## Project Overview
 
-TFUtils-Go represents my solution to performance bottlenecks in the TFUtils project at TFBern. By completely
-rewriting this essential student tool in Go, I've created a significantly faster, more reliable alternative with
+TFUtils-Go represents my solution to performance and usability bottlenecks in the TFUtils project at TFBern. By
+completely rewriting this tool in Go, I am creating a significantly faster, more reliable alternative with
 simplified deployment across all platforms.
 
 ## The Challenge
