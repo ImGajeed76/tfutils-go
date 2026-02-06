@@ -89,4 +89,4 @@ TFBern students.
 ⚠️ **Note**: This is an alpha release. The project is under active development, and we welcome your feedback and
 contributions!
 
-Built with ❤️ in Switzerland by ImGajeed76
+Built with ❤️ in Switzerland by [Oliver Seifert](https://oseifert.ch) | [Blog Post](https://oseifert.ch/blog/building-tfutils-go)
